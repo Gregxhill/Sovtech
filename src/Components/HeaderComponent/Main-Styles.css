@@ -1,0 +1,41 @@
+h1 {
+  text-align: left;
+}
+
+.main-section {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.main-left {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: lightblue; */
+}
+
+.main-left h1 {
+  font-size: 5rem;
+}
+
+.main-right {
+  width: 40%;
+  height: 100%;
+  /* background-color: lightcoral; */
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.main-right-image {
+  width: 50%;
+}
+
+.main-right-image img {
+  object-fit: contain;
+  width: 100%;
+  border-radius: 50px;
+}
